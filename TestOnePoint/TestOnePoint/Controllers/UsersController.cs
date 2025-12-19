@@ -8,13 +8,18 @@ namespace TestOnePoint.Controllers
     [ApiController]
     public class UsersController(IUserService service) : ControllerBase
     {
-
-
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetAllUser()
-            => Ok(await service.GetAllUsersAsync());
-
+        {
+            var users = await service.GetAllUsersAsync();
+            // Do not expose password hashes in responses
+            foreach (var u in users)
+            {
+                u.PasswordHash = null!;
+            }
+            return Ok(users);
+        }
 
         // GET: api/Users/5
         [HttpGet("{id}")]
@@ -26,19 +31,16 @@ namespace TestOnePoint.Controllers
                 return NotFound("User with this ID was not found");
             }
 
+            user.PasswordHash = null!;
             return Ok(user);
         }
 
-        // PUT: api/Users/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // POST: api/Users
         [HttpPost]
-        public async Task<IActionResult> AddUser(int id, User user)
+        public async Task<IActionResult> AddUser(User user)
         {
-            if (id != user.Id)
-            {
-                return BadRequest();
-            }
             var createdUser = await service.CreateUserAsync(user);
+            createdUser.PasswordHash = null!;
             return CreatedAtAction(nameof(GetUserByID), new { id = createdUser.Id }, createdUser);
         }
 
@@ -48,7 +50,6 @@ namespace TestOnePoint.Controllers
         {
             var deleted = await service.DeleteUserAsync(id);
             return deleted ? NoContent() : NotFound("Character with the given Id was not found.");
-
         }
     }
 }
