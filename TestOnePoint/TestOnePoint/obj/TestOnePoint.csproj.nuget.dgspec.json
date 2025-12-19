@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj": {}
+    "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj": {
+    "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
+        "projectUniqueName": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
         "projectName": "TestOnePoint",
-        "projectPath": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
+        "projectPath": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
         "packagesPath": "C:\\Users\\techs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\TestOnePoint\\TestOnePoint\\obj\\",
+        "outputPath": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             }
           },
           "imports": [
