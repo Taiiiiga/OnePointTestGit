@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Konscious.Security.Cryptography;
 using System.Security.Cryptography;
 using System.Text;
-using Konscious.Security.Cryptography;
+using TestOnePoint.Services;
+
 
 namespace TestOnePoint.Services
 {
@@ -44,32 +45,68 @@ namespace TestOnePoint.Services
                 if (string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(encodedHash))
                     return false;
 
+                // Split and ignore empty entries created by leading '$'
                 var parts = encodedHash.Split('$', StringSplitOptions.RemoveEmptyEntries);
-                // Expect: ["argon2id", "v=19", "m=...,t=...,p=...", "<saltB64>", "<hashB64>"] or ["argon2id","v=19","m=...,t=...,p=...","<saltB64>","<hashB64>"]
-                // Our format uses 4 meaningful parts after removing empty: ["argon2id","v=19$m=...,t=...,p=...","<saltB64>","<hashB64>"]
-                if (parts.Length != 4 || parts[0] != "argon2id")
+
+                // Minimal expected PHC format: ["argon2id", "v=19", "m=...,t=...,p=...", "<saltB64>", "<hashB64>"]
+                if (parts.Length < 4)
                     return false;
 
-                var paramsPart = parts[1];
-                var paramTokens = paramsPart.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                if (!parts[0].Equals("argon2id", StringComparison.OrdinalIgnoreCase))
+                    return false;
 
-                int memory = 0, iterations = 0, parallel = 0;
-                foreach (var token in paramTokens)
+                // Locate params part (the token that contains 'm=')
+                int paramsIndex = -1;
+                for (int i = 1; i < parts.Length - 2; i++)
                 {
-                    if (token.StartsWith("m=")) memory = int.Parse(token.Substring(2));
-                    if (token.StartsWith("t=")) iterations = int.Parse(token.Substring(2));
-                    if (token.StartsWith("p=")) parallel = int.Parse(token.Substring(2));
+                    if (parts[i].Contains("m=", StringComparison.OrdinalIgnoreCase))
+                    {
+                        paramsIndex = i;
+                        break;
+                    }
                 }
 
-                var salt = Convert.FromBase64String(parts[2]);
-                var expectedHash = Convert.FromBase64String(parts[3]);
+                if (paramsIndex == -1)
+                    return false;
+
+                var paramsPart = parts[paramsIndex];
+
+                // Parse params: expect tokens like m=...,t=...,p=...
+                int memory = 0, iterations = 0, parallel = 0;
+                var paramTokens = paramsPart.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                foreach (var token in paramTokens)
+                {
+                    var t = token.Trim();
+                    if (t.StartsWith("m=", StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (!int.TryParse(t.Substring(2), out memory))
+                            return false;
+                    }
+                    else if (t.StartsWith("t=", StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (!int.TryParse(t.Substring(2), out iterations))
+                            return false;
+                    }
+                    else if (t.StartsWith("p=", StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (!int.TryParse(t.Substring(2), out parallel))
+                            return false;
+                    }
+                }
+
+                // Salt and hash are the last two parts
+                var saltB64 = parts[^2];
+                var hashB64 = parts[^1];
+
+                var salt = Convert.FromBase64String(saltB64);
+                var expectedHash = Convert.FromBase64String(hashB64);
 
                 var argon2 = new Argon2id(Encoding.UTF8.GetBytes(password))
                 {
                     Salt = salt,
-                    Iterations = iterations,
-                    MemorySize = memory,
-                    DegreeOfParallelism = parallel
+                    Iterations = iterations == 0 ? _iterations : iterations,
+                    MemorySize = memory == 0 ? _memorySize : memory,
+                    DegreeOfParallelism = parallel == 0 ? _degreeOfParallelism : parallel
                 };
 
                 var computed = argon2.GetBytes(expectedHash.Length);

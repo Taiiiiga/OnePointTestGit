@@ -84,7 +84,7 @@ namespace TestOnePoint.Controllers
         public async Task<IActionResult> DeleteUser(int id)
         {
             var deleted = await service.DeleteUserAsync(id);
-            return deleted ? NoContent() : NotFound("Character with the given Id was not found.");
+            return deleted ? Ok() : NotFound("Character with the given Id was not found.");
         }
 
         // Mapping helper — centraliser pour éviter fuite de PasswordHash
