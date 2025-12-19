@@ -11,32 +11,36 @@
       "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\services\\argon2passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\services\\argon2passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\testonepoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\testonepoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\data\\testonepointcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\data\\testonepointcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\testonepoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\testonepoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\dtos\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\dtos\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|c:\\users\\techs\\documents\\testonepointgaialeo\\onepointtestgit\\testonepoint\\testonepoint\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AA17A5-8166-54A6-3F23-6FC5DA3BB960}|TestOnePoint\\TestOnePoint.csproj|solutionrelative:testonepoint\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,84 +50,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Argon2PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\Argon2PasswordHasher.cs",
-              "RelativeDocumentMoniker": "TestOnePoint\\Services\\Argon2PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\Argon2PasswordHasher.cs",
-              "RelativeToolTip": "TestOnePoint\\Services\\Argon2PasswordHasher.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwFQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T11:06:07.702Z",
+              "Title": "TestOnePoint",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
+              "RelativeDocumentMoniker": "TestOnePoint\\TestOnePoint.csproj",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
+              "RelativeToolTip": "TestOnePoint\\TestOnePoint.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-19T15:23:32.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "TestOnePoint\\Services\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\IPasswordHasher.cs",
-              "RelativeToolTip": "TestOnePoint\\Services\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T11:05:43.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Program.cs",
-              "RelativeDocumentMoniker": "TestOnePoint\\Program.cs",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Program.cs",
-              "RelativeToolTip": "TestOnePoint\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T10:13:38.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TestOnePointContext.cs",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Data\\TestOnePointContext.cs",
-              "RelativeDocumentMoniker": "TestOnePoint\\Data\\TestOnePointContext.cs",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Data\\TestOnePointContext.cs",
-              "RelativeToolTip": "TestOnePoint\\Data\\TestOnePointContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:49:07.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "TestOnePoint\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\IUserService.cs",
-              "RelativeToolTip": "TestOnePoint\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:48:49.511Z",
+              "DocumentIndex": 5,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-19T15:10:30.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TestOnePoint\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Services\\UserService.cs",
-              "RelativeToolTip": "TestOnePoint\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:48:41.608Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-19T15:02:50.917Z",
               "EditorCaption": ""
             },
             {
@@ -134,14 +111,66 @@
               "RelativeDocumentMoniker": "TestOnePoint\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Controllers\\UsersController.cs",
               "RelativeToolTip": "TestOnePoint\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:47:05.027Z",
+              "WhenOpened": "2025-12-19T13:27:59.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Dtos\\UserRequest.cs",
+              "RelativeDocumentMoniker": "TestOnePoint\\Dtos\\UserRequest.cs",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Dtos\\UserRequest.cs",
+              "RelativeToolTip": "TestOnePoint\\Dtos\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:27:33.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Dtos\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "TestOnePoint\\Dtos\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Dtos\\UpdateUserRequest.cs",
+              "RelativeToolTip": "TestOnePoint\\Dtos\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:27:32.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Program.cs",
+              "RelativeDocumentMoniker": "TestOnePoint\\Program.cs",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Program.cs",
+              "RelativeToolTip": "TestOnePoint\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:26:51.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\appsettings.json",
+              "RelativeDocumentMoniker": "TestOnePoint\\appsettings.json",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\appsettings.json",
+              "RelativeToolTip": "TestOnePoint\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T13:13:52.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Models\\User.cs",
               "RelativeDocumentMoniker": "TestOnePoint\\Models\\User.cs",
@@ -154,28 +183,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TestOnePoint.csproj",
-              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
-              "RelativeDocumentMoniker": "TestOnePoint\\TestOnePoint.csproj",
-              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\TestOnePoint.csproj",
-              "RelativeToolTip": "TestOnePoint\\TestOnePoint.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-19T09:31:14.074Z",
+              "DocumentIndex": 6,
+              "Title": "TestOnePointContext.cs",
+              "DocumentMoniker": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Data\\TestOnePointContext.cs",
+              "RelativeDocumentMoniker": "TestOnePoint\\Data\\TestOnePointContext.cs",
+              "ToolTip": "C:\\Users\\techs\\Documents\\TestOnePointGaiaLEO\\OnePointTestGit\\TestOnePoint\\TestOnePoint\\Data\\TestOnePointContext.cs",
+              "RelativeToolTip": "TestOnePoint\\Data\\TestOnePointContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T09:49:07.5Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

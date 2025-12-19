@@ -51,6 +51,10 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Konscious.Security.Cryptography.Argon2": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -72,6 +76,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.11.8, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
             }
           },
           "imports": [

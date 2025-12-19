@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using TestOnePoint.Models;
 using TestOnePoint.Services;
 using TestOnePoint.Dtos;
@@ -11,6 +12,7 @@ namespace TestOnePoint.Controllers
     {
         // GET: api/Users
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<UserResponse>>> GetAllUser()
         {
             var users = await service.GetAllUsersAsync();
@@ -22,6 +24,7 @@ namespace TestOnePoint.Controllers
 
         // GET: api/Users/5
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<UserResponse>> GetUserByID(int id)
         {
             var user = await service.GetUserByIdAsync(id);
@@ -52,6 +55,7 @@ namespace TestOnePoint.Controllers
 
         // PUT: api/Users/5
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UpdateUserRequest request)
         {
             var existing = await service.GetUserByIdAsync(id);
@@ -76,6 +80,7 @@ namespace TestOnePoint.Controllers
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteUser(int id)
         {
             var deleted = await service.DeleteUserAsync(id);
