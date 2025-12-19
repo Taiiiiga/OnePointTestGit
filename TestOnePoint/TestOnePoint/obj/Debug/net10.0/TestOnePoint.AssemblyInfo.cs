@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestOnePoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35d2643a6bbf5489c0cd991d0bd2a7c94c55ff54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+867721560bc2c72c508fe86f2bff3c27dcef53fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestOnePoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestOnePoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
