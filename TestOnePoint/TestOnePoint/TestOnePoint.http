@@ -1,0 +1,6 @@
+@TestOnePoint_HostAddress = http://localhost:5079
+
+GET {{TestOnePoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
